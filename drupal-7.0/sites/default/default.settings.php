@@ -444,18 +444,3 @@ ini_set('session.cookie_lifetime', 2000000);
  * Remove the leading hash signs to disable.
  */
 # $conf['allow_authorize_operations'] = FALSE;
-
-/**
- * External access proxy settings:
- *
- * If your site must access the internet via a web proxy then you can enter
- * the proxy settings here. Currently only basic authentication is supported
- * by using the username and password variables. The proxy_exceptions variable
- * is an array of host names to be accessed directly, not via proxy.
- */
-# $conf['proxy_server'] = '';
-# $conf['proxy_port'] = 8080;
-# $conf['proxy_username'] = '';
-# $conf['proxy_password'] = '';
-# $conf['proxy_exceptions'] = array('127.0.0.1', 'localhost');
-
